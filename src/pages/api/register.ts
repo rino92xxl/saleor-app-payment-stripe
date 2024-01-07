@@ -9,6 +9,7 @@ import { saleorApp } from "../../saleor-app";
 export default createAppRegisterHandler({
   apl: saleorApp.apl,
   allowedSaleorUrls: [
+    "https://ed.saleor.cloud/graphql/",
     /**
      * You may want your app to work only for certain Saleor instances.
      *
